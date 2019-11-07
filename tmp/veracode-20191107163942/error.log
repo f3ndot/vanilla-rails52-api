@@ -1,0 +1,127 @@
+veracode [2019-11-07 16:39:42 -0500] COMMAND: /Users/justin/.rbenv/versions/2.6.5/bin/veracode prepare -D -v
+veracode [2019-11-07 16:39:42 -0500] RUBY_DESCRIPTION: ruby 2.6.5p114 (2019-10-01 revision 67812) [x86_64-darwin18]
+veracode [2019-11-07 16:39:43 -0500] RAILS_VERSION: Rails 5.2.3
+veracode [2019-11-07 16:39:43 -0500] GEM_VERSION: 1.0.0.alpha19
+veracode [2019-11-07 16:39:43 -0500] ARCHIVE_VERSION: 2012-07-04
+veracode [2019-11-07 16:39:43 -0500] PWD: "/Users/justin/Code/simple-52-rails"
+veracode [2019-11-07 16:39:43 -0500] APP_NAME: "simple-52-rails"
+veracode [2019-11-07 16:39:43 -0500] RUNID: 20191107163942
+Exception `LoadError' at /Users/justin/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/concurrent-ruby-1.1.5/lib/concurrent/utility/native_extension_loader.rb:62 - cannot load such file -- concurrent/concurrent_ruby_ext
+Exception `LoadError' at /Users/justin/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/concurrent-ruby-1.1.5/lib/concurrent/utility/native_extension_loader.rb:62 - cannot load such file -- concurrent/2.6/concurrent_ruby_ext
+Exception `LoadError' at /Users/justin/.rbenv/versions/2.6.5/lib/ruby/2.6.0/psych.rb:14 - cannot load such file -- 2.6/psych.so
+Exception `NameError' at /Users/justin/.rbenv/versions/2.6.5/lib/ruby/2.6.0/psych/class_loader.rb:68 - uninitialized constant Date
+Did you mean?  Data
+Exception `NameError' at /Users/justin/.rbenv/versions/2.6.5/lib/ruby/2.6.0/psych/class_loader.rb:68 - uninitialized constant DateTime
+Did you mean?  DateAndTime
+Exception `NameError' at /Users/justin/.rbenv/versions/2.6.5/lib/ruby/2.6.0/psych/class_loader.rb:68 - uninitialized constant BigDecimal
+Using Ext extension for JSON.
+Exception `TypeError' at /Users/justin/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/activesupport-5.2.3/lib/active_support/core_ext/enumerable.rb:10 - String can't be coerced into Integer
+Exception `TypeError' at /Users/justin/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/activesupport-5.2.3/lib/active_support/core_ext/enumerable.rb:146 - String can't be coerced into Integer
+Exception `LoadError' at /Users/justin/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/nokogiri-1.10.5/lib/nokogiri.rb:30 - cannot load such file -- nokogiri/2.6/nokogiri
+Exception `LoadError' at /Users/justin/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/msgpack-1.3.1/lib/msgpack.rb:9 - cannot load such file -- msgpack/2.6/msgpack
+Exception `Errno::ENOENT' at /Users/justin/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/bootsnap-1.4.5/lib/bootsnap/load_path_cache/path.rb:28 - No such file or directory @ rb_file_s_stat - /Users/justin/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/rails-5.2.3/lib
+Exception `Errno::ENOENT' at /Users/justin/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/bootsnap-1.4.5/lib/bootsnap/load_path_cache/path.rb:28 - No such file or directory @ rb_file_s_stat - /Users/justin/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/bundler-1.17.2/lib
+Exception `Errno::EEXIST' at /Users/justin/.rbenv/versions/2.6.5/lib/ruby/2.6.0/fileutils.rb:239 - File exists @ dir_s_mkdir - /Users/justin/Code/simple-52-rails/tmp/cache
+Exception `Bootsnap::LoadPathCache::ReturnFalse' at /Users/justin/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/bootsnap-1.4.5/lib/bootsnap/load_path_cache/cache.rb:61 - 
+Exception `Bootsnap::LoadPathCache::ReturnFalse' at /Users/justin/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/bootsnap-1.4.5/lib/bootsnap/load_path_cache/cache.rb:61 - 
+Exception `Bootsnap::LoadPathCache::FallbackScan' at /Users/justin/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/bootsnap-1.4.5/lib/bootsnap/load_path_cache/cache.rb:92 - 
+Exception `LoadError' at /Users/justin/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/bootsnap-1.4.5/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22 - cannot load such file -- did_you_mean
+Exception `LoadError' at /Users/justin/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:261 - cannot load such file -- did_you_mean
+Exception `Bootsnap::LoadPathCache::FallbackScan' at /Users/justin/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/bootsnap-1.4.5/lib/bootsnap/load_path_cache/cache.rb:92 - 
+Exception `LoadError' at /Users/justin/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/bootsnap-1.4.5/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22 - cannot load such file -- sqlite3/2.6/sqlite3_native
+Exception `LoadError' at /Users/justin/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:261 - cannot load such file -- sqlite3/2.6/sqlite3_native
+Exception `Bootsnap::LoadPathCache::ReturnFalse' at /Users/justin/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/bootsnap-1.4.5/lib/bootsnap/load_path_cache/cache.rb:61 - 
+Exception `Bootsnap::LoadPathCache::ReturnFalse' at /Users/justin/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/bootsnap-1.4.5/lib/bootsnap/load_path_cache/cache.rb:61 - 
+Exception `Bootsnap::LoadPathCache::ReturnFalse' at /Users/justin/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/bootsnap-1.4.5/lib/bootsnap/load_path_cache/cache.rb:61 - 
+Exception `Bootsnap::LoadPathCache::ReturnFalse' at /Users/justin/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/bootsnap-1.4.5/lib/bootsnap/load_path_cache/cache.rb:61 - 
+Exception `Bootsnap::LoadPathCache::ReturnFalse' at /Users/justin/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/bootsnap-1.4.5/lib/bootsnap/load_path_cache/cache.rb:61 - 
+Exception `Bootsnap::LoadPathCache::FallbackScan' at /Users/justin/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/bootsnap-1.4.5/lib/bootsnap/load_path_cache/cache.rb:92 - 
+Exception `LoadError' at /Users/justin/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/bootsnap-1.4.5/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22 - cannot load such file -- spring
+Exception `Bootsnap::LoadPathCache::FallbackScan' at /Users/justin/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/bootsnap-1.4.5/lib/bootsnap/load_path_cache/cache.rb:92 - 
+Exception `LoadError' at /Users/justin/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/bootsnap-1.4.5/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22 - cannot load such file -- spring-watcher-listen
+Exception `Bootsnap::LoadPathCache::FallbackScan' at /Users/justin/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/bootsnap-1.4.5/lib/bootsnap/load_path_cache/cache.rb:92 - 
+Exception `LoadError' at /Users/justin/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/bootsnap-1.4.5/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22 - cannot load such file -- tzinfo/data
+Exception `LoadError' at /Users/justin/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:261 - cannot load such file -- tzinfo/data
+Exception `Sprockets::Railtie::ManifestNeededError' at /Users/justin/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/sprockets-rails-3.2.1/lib/sprockets/railtie.rb:105 - Expected to find a manifest file in `app/assets/config/manifest.js`
+But did not, please create this file and use it to link any assets that need
+to be rendered by your app:
+
+Example:
+  //= link_tree ../images
+  //= link_directory ../javascripts .js
+  //= link_directory ../stylesheets .css
+and restart your server
+Exception `Sprockets::Railtie::ManifestNeededError' at /Users/justin/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/bootsnap-1.4.5/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22 - Expected to find a manifest file in `app/assets/config/manifest.js`
+But did not, please create this file and use it to link any assets that need
+to be rendered by your app:
+
+Example:
+  //= link_tree ../images
+  //= link_directory ../javascripts .js
+  //= link_directory ../stylesheets .css
+and restart your server
+Exception `Sprockets::Railtie::ManifestNeededError' at /Users/justin/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:261 - Expected to find a manifest file in `app/assets/config/manifest.js`
+But did not, please create this file and use it to link any assets that need
+to be rendered by your app:
+
+Example:
+  //= link_tree ../images
+  //= link_directory ../javascripts .js
+  //= link_directory ../stylesheets .css
+and restart your server
+Exception `Sprockets::Railtie::ManifestNeededError' at /Users/justin/.rbenv/versions/2.6.5/bin/veracode:23 - Expected to find a manifest file in `app/assets/config/manifest.js`
+But did not, please create this file and use it to link any assets that need
+to be rendered by your app:
+
+Example:
+  //= link_tree ../images
+  //= link_directory ../javascripts .js
+  //= link_directory ../stylesheets .css
+and restart your server
+Exception `Sprockets::Railtie::ManifestNeededError' at /Users/justin/.rbenv/versions/2.6.5/lib/ruby/2.6.0/bundler/cli/exec.rb:74 - Expected to find a manifest file in `app/assets/config/manifest.js`
+But did not, please create this file and use it to link any assets that need
+to be rendered by your app:
+
+Example:
+  //= link_tree ../images
+  //= link_directory ../javascripts .js
+  //= link_directory ../stylesheets .css
+and restart your server
+Sprockets::Railtie::ManifestNeededError: Expected to find a manifest file in `app/assets/config/manifest.js`
+But did not, please create this file and use it to link any assets that need
+to be rendered by your app:
+
+Example:
+  //= link_tree ../images
+  //= link_directory ../javascripts .js
+  //= link_directory ../stylesheets .css
+and restart your server
+  /Users/justin/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/sprockets-rails-3.2.1/lib/sprockets/railtie.rb:105:in `block in <class:Railtie>'
+  /Users/justin/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/railties-5.2.3/lib/rails/initializable.rb:32:in `instance_exec'
+  /Users/justin/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/railties-5.2.3/lib/rails/initializable.rb:32:in `run'
+  /Users/justin/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/railties-5.2.3/lib/rails/initializable.rb:61:in `block in run_initializers'
+  /Users/justin/.rbenv/versions/2.6.5/lib/ruby/2.6.0/tsort.rb:228:in `block in tsort_each'
+  /Users/justin/.rbenv/versions/2.6.5/lib/ruby/2.6.0/tsort.rb:350:in `block (2 levels) in each_strongly_connected_component'
+  /Users/justin/.rbenv/versions/2.6.5/lib/ruby/2.6.0/tsort.rb:431:in `each_strongly_connected_component_from'
+  /Users/justin/.rbenv/versions/2.6.5/lib/ruby/2.6.0/tsort.rb:349:in `block in each_strongly_connected_component'
+  /Users/justin/.rbenv/versions/2.6.5/lib/ruby/2.6.0/tsort.rb:347:in `each'
+  /Users/justin/.rbenv/versions/2.6.5/lib/ruby/2.6.0/tsort.rb:347:in `call'
+  /Users/justin/.rbenv/versions/2.6.5/lib/ruby/2.6.0/tsort.rb:347:in `each_strongly_connected_component'
+  /Users/justin/.rbenv/versions/2.6.5/lib/ruby/2.6.0/tsort.rb:226:in `tsort_each'
+  /Users/justin/.rbenv/versions/2.6.5/lib/ruby/2.6.0/tsort.rb:205:in `tsort_each'
+  /Users/justin/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/railties-5.2.3/lib/rails/initializable.rb:60:in `run_initializers'
+  /Users/justin/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/railties-5.2.3/lib/rails/application.rb:361:in `initialize!'
+  /Users/justin/Code/simple-52-rails/config/environment.rb:5:in `<main>'
+  /Users/justin/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/bootsnap-1.4.5/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `require'
+  /Users/justin/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/bootsnap-1.4.5/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `block in require_with_bootsnap_lfi'
+  /Users/justin/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/bootsnap-1.4.5/lib/bootsnap/load_path_cache/loaded_features_index.rb:92:in `register'
+  /Users/justin/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/bootsnap-1.4.5/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:21:in `require_with_bootsnap_lfi'
+  /Users/justin/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/bootsnap-1.4.5/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+  /Users/justin/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:291:in `block in require'
+  /Users/justin/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:257:in `load_dependency'
+  /Users/justin/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:291:in `require'
+  /Users/justin/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/railties-5.2.3/lib/rails/application.rb:337:in `require_environment!'
+  /Users/justin/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/veracode-1.0.0.alpha19/lib/veracode.rb:939:in `prepare'
+  /Users/justin/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/veracode-1.0.0.alpha19/bin/veracode:75:in `<top (required)>'
+  /Users/justin/.rbenv/versions/2.6.5/bin/veracode:23:in `load'
+  /Users/justin/.rbenv/versions/2.6.5/bin/veracode:23:in `<top (required)>'
