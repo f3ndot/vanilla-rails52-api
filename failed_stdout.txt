@@ -1,12 +1,12 @@
-be veracode prepare -D -v
-Preparing Ruby on Rails application "simple-52-rails" for Veracode upload
+f3dnot@e2b51e0d960e:~/vanilla-rails52-api$ veracode prepare -v -D
+Preparing Ruby on Rails application "vanilla-rails52-api" for Veracode upload
 Source code will be included in the archive
-"/Users/justin/Code/simple-52-rails"
+"/home/f3dnot/vanilla-rails52-api"
 
 Phase 1 - Initial State
-39231 objects
-877 modules
-760 classes
+32053 objects
+754 modules
+660 classes
 
 Phase 2 - Load Rails
 Required rails
@@ -14,5 +14,3 @@ Requiring config/boot.rb (OK: required)
 1/1 files were required
 Requiring config/application.rb (OK: required)
 1/1 files were required
-bundler: failed to load command: veracode (/Users/justin/.rbenv/versions/2.6.5/bin/veracode)
-
